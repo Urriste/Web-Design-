@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+
+*{
+	font-family: 'Oswald', sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+
+.general-container {
+	background-color: white;
+}
+
+.navbar {
+	box-shadow: 0px 1px 2px #27272780;
+}
+
+.navbar-brand{
+	font-family: 'Homemade Apple', cursive;
+}
+
+.header{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color:  #07689f;
+	height: 60vh;
+}
+
+.header-title {
+	font-size: 3em;
+	font-weight: 700;
+	margin-bottom: 50px;
+}
+
+.header-paragraph{
+	font-size: 1.2em;
+	font-weight: 300;
+	margin-bottom: 25px;
+}
+
+
+.card {
+	width: 500px; 	
+	margin:auto;
+	box-shadow: 0px 1px 2px #27272780;
+	background-color: #eeeeee !important;
+}
+
+.img-card{
+	max-height: 300px;
+	width: 100%
+	height:auto;
+	padding: 25px;
+	overflow: hidden;
+}
+
+.img-container{
+	max-width: 250px;
+	display: flex;
+	margin:auto;
+}
+
+.card-title {
+	font-weight: 700;
+	padding: 3px 0 0 3px;
+	font-size: 1.5rem;
+}
+
+.card-text {
+	font-weight: 400;
+	font-size: 15px;
+}
+
+.span-texto {
+	color:#07689f;
+	font-size: 16px;
+}
+
+
+.skills-card__list,
+.other-skills__list {
+	list-style: none;
+}
+
+.fa-html5,
+.fa-js{
+	color:orange;
+}
+
+.fa-css3-alt{
+	color:blue;
+}
+
+.fa-language{
+	color:lightblue;
+}
+
+.fa-lightbulb{
+	color:#ffc400;
+}
+
+.fa-bootstrap{
+	color:purple;
+}
+
+.jumbotron{
+	margin-top: 150px;
+	text-align: center;
+	background-color:#a2d5f2 !important;
+	color:black;
+}
+
+footer {
+	background-color: #ff7e67;
+	margin-top: 35px;
+	height: 40px;
+	text-align: center;
+}
+
+.footer-links__container{
+	display: flex;
+}
+
+.footer-link {
+	padding-top: 7px;
+	margin:auto;
+	color:white;
+	font-size: 25px;
+}
+
+.footer-link:hover {
+	text-decoration: none;
+	color:white;
+	text-shadow: 0px 1px 2px #27272780;
+}
