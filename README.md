@@ -8,3 +8,9 @@ Aca voy a ir subiendo los proyectos que tenga, para ,algún día, ver mis mejora
   Segunda pagina que armo. Totalmente responsive, hecha con Bootstrap 4.
   Gran avance, contento por mejorar en menos de un mes!
   El link es urriste.netlify.app 
+  
+07/11/2020
+
+  Challenge de FrontendMentor propuesto en el Discord de EscuelaDevRock.
+  Sistema de Cards con comentarios de personas.
+  Link: urriste-fmchallenge.netlify.app
