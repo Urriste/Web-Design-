@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,500&display=swap');
+
+
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+	height: 100vh;
+	background: linear-gradient(#30cfd0, #330867);
+}
+
+.data-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.me-img{
+	width: 145px;
+	height: 145px;
+	border-radius: 50%;
+	margin:25px 0 0 0;
+}
+
+.social-media__container{
+	margin:15px 0 0 0;
+}
+
+.social-media__icon{
+	margin:0 7px 0 7px;
+	text-decoration: none;
+	color:white;
+	font-size: 17px;
+}
+
+.names-container{
+	margin: 10px 0 0 0;
+	text-align: center;
+}
+
+.name-title{
+	font-weight: 500;
+	font-size: 30px;
+	color:rgb(255,255,255);
+}
+
+.name-subtitle{
+	font-size: 16px;
+	font-weight: 300;
+	color:white;
+}
+
+
+.links-container{
+	margin: 25px 0 0 0;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+
+.link-item{
+	margin: 10px;
+	height: 45px;
+	width: 300px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border:2px solid rgba(255,255,255,0.7);
+	text-decoration: none;
+	border-radius: 5px;
+	color: white;
+	font-weight: 300;
+}
+
+.link-item:hover{
+	background-color: white;
+	color: black;
+}
+
